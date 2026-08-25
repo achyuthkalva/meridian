@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Meridian isolated forward-test results</title>
+  <desc id="desc">Seven synthetic scenarios passed the documented manual rubric with 140 of 140 scored points and zero hard failures after a baseline failure led to four evidence-language repairs.</desc>
+  <defs>
+    <linearGradient id="bg" x1="55" y1="30" x2="1140" y2="730" gradientUnits="userSpaceOnUse"><stop stop-color="#102B3D"/><stop offset="0.6" stop-color="#091A27"/><stop offset="1" stop-color="#060F18"/></linearGradient>
+    <linearGradient id="test" x1="60" y1="390" x2="1140" y2="630" gradientUnits="userSpaceOnUse"><stop stop-color="#F3C56B"/><stop offset="0.42" stop-color="#8BE6D7"/><stop offset="1" stop-color="#6798F0"/></linearGradient>
+    <style>.sans{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.caps{letter-spacing:2.2px}.case{font-size:13px;font-weight:620}.risk{font-size:12px;fill:#91A7B4}</style>
+  </defs>
+  <rect width="1200" height="760" rx="28" fill="url(#bg)"/>
+  <g class="sans">
+    <text x="60" y="65" fill="#8BE6D7" font-size="13" font-weight="700" class="caps">ISOLATED FORWARD TESTS</text>
+    <text x="60" y="111" fill="#F4F8FA" font-size="32" font-weight="650" letter-spacing="-0.8">One visible failure made every public claim stricter.</text>
+    <text x="60" y="140" fill="#8EA3B3" font-size="16">Fresh agents tested realistic synthetic evidence without receiving the expected answers.</text>
+
+    <g transform="translate(60 174)">
+      <g><rect width="250" height="92" rx="18" fill="#0D2635" stroke="#33665C"/><text x="24" y="34" fill="#8BE6D7" font-size="12" font-weight="700" class="caps">FINAL CASES</text><text x="24" y="70" fill="#F4F8FA" font-size="29" font-weight="680">7 / 7</text></g>
+      <g transform="translate(270)"><rect width="250" height="92" rx="18" fill="#0D2635" stroke="#335D7D"/><text x="24" y="34" fill="#79A7F5" font-size="12" font-weight="700" class="caps">SCORED POINTS</text><text x="24" y="70" fill="#F4F8FA" font-size="29" font-weight="680">140 / 140</text></g>
+      <g transform="translate(540)"><rect width="250" height="92" rx="18" fill="#0D2635" stroke="#4F6373"/><text x="24" y="34" fill="#AFC1CC" font-size="12" font-weight="700" class="caps">HARD FAILURES</text><text x="24" y="70" fill="#F4F8FA" font-size="29" font-weight="680">0</text></g>
+      <g transform="translate(810)"><rect width="270" height="92" rx="18" fill="#0D2635" stroke="#6B6040"/><text x="24" y="34" fill="#F3C56B" font-size="12" font-weight="700" class="caps">DATA</text><text x="24" y="67" fill="#DDE9EF" font-size="17" font-weight="620">100% synthetic fixtures</text></g>
+    </g>
+
+    <g transform="translate(60 300)">
+      <text x="0" y="18" fill="#8EA3B3" font-size="12" font-weight="700" class="caps">LEARNING PATH</text>
+      <circle cx="188" cy="14" r="7" fill="#F3C56B"/><path d="M195 14H486" stroke="#3C5868" stroke-width="1.5"/><circle cx="493" cy="14" r="7" fill="#8BE6D7"/><path d="M500 14H809" stroke="#3C5868" stroke-width="1.5"/><circle cx="816" cy="14" r="7" fill="#6798F0"/>
+      <text x="188" y="48" text-anchor="middle" fill="#F3C56B" font-size="13" font-weight="650">5 of 6 baseline passes</text>
+      <text x="493" y="48" text-anchor="middle" fill="#8BE6D7" font-size="13" font-weight="650">4 narrow wording repairs</text>
+      <text x="816" y="48" text-anchor="middle" fill="#79A7F5" font-size="13" font-weight="650">7 of 7 final passes</text>
+      <text x="1045" y="20" text-anchor="end" fill="#8EA3B3" font-size="12">No level changed.</text>
+    </g>
+
+    <path d="M60 390H1140" stroke="url(#test)" stroke-width="1.5" opacity="0.7"/>
+    <g transform="translate(60 408)">
+      <g><rect width="258" height="82" rx="16" fill="#0C2130" stroke="#4F5E45"/><text x="18" y="27" fill="#F3C56B" font-size="12" font-weight="700">Test 1 · PASS</text><text x="18" y="51" fill="#DDE9EF" class="case">Chronology over polish</text><text x="18" y="69" class="risk">Later summaries stayed secondary.</text></g>
+      <g transform="translate(274)"><rect width="258" height="82" rx="16" fill="#0C2130" stroke="#3B665F"/><text x="18" y="27" fill="#8BE6D7" font-size="12" font-weight="700">Test 2 · PASS</text><text x="18" y="51" fill="#DDE9EF" class="case">Strategy boundaries</text><text x="18" y="69" class="risk">Decision jobs beat old labels.</text></g>
+      <g transform="translate(548)"><rect width="258" height="82" rx="16" fill="#0C2130" stroke="#36626A"/><text x="18" y="27" fill="#69C7C9" font-size="12" font-weight="700">Test 3 · PASS</text><text x="18" y="51" fill="#DDE9EF" class="case">B2B human purpose</text><text x="18" y="69" class="risk">Metrics did not replace people.</text></g>
+      <g transform="translate(822)"><rect width="258" height="82" rx="16" fill="#0C2130" stroke="#3A5F77"/><text x="18" y="27" fill="#79A7F5" font-size="12" font-weight="700">Test 4 · PASS</text><text x="18" y="51" fill="#DDE9EF" class="case">No history from screens</text><text x="18" y="69" class="risk">Unknown remained valid.</text></g>
+
+      <g transform="translate(0 98)"><rect width="348" height="82" rx="16" fill="#0C2130" stroke="#4F5E45"/><text x="18" y="27" fill="#F3C56B" font-size="12" font-weight="700">Test 5 · PASS AFTER REPAIR</text><text x="18" y="51" fill="#DDE9EF" class="case">Source distance and ownership</text><text x="18" y="69" class="risk">Each public sentence preserved the testimony chain.</text></g>
+      <g transform="translate(366 98)"><rect width="348" height="82" rx="16" fill="#0C2130" stroke="#36626A"/><text x="18" y="27" fill="#69C7C9" font-size="12" font-weight="700">Test 6 · PASS</text><text x="18" y="51" fill="#DDE9EF" class="case">Multi-actor outcomes and causality</text><text x="18" y="69" class="risk">Testing, release, association, and cause stayed distinct.</text></g>
+      <g transform="translate(732 98)"><rect width="348" height="82" rx="16" fill="#0C2130" stroke="#3A5F77"/><text x="18" y="27" fill="#79A7F5" font-size="12" font-weight="700">Test 7 · PASS</text><text x="18" y="51" fill="#DDE9EF" class="case">PDF layout and CSV lifecycle</text><text x="18" y="69" class="risk">Mixed formats retained their meaning.</text></g>
+    </g>
+
+    <g transform="translate(60 626)">
+      <rect width="1080" height="76" rx="16" fill="#0B1E2B" stroke="#294A5C"/>
+      <text x="22" y="29" fill="#AFC1CC" font-size="12" font-weight="700" class="caps">WHAT THIS PROVES</text>
+      <text x="280" y="29" fill="#AFC1CC" font-size="13">The tested controls survived seven realistic cases.</text>
+      <text x="22" y="54" fill="#8EA3B3" font-size="12" font-weight="700" class="caps">WHAT IT DOES NOT PROVE</text>
+      <text x="280" y="54" fill="#8EA3B3" font-size="12">Promise deterministic behavior across every model, host, domain, or source condition.</text>
+    </g>
+    <text x="60" y="730" fill="#8EA3B3" font-size="12">Manual evidence-based scoring · one main run per case · repeated fresh runs only for the repaired publication case</text>
+  </g>
+</svg>

@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0",
+  "suite_id": "meridian-forward-tests",
+  "created_on": "2026-08-25",
+  "method": {
+    "execution": "One fresh agent context per case",
+    "context_given": "Meridian, the user request, and named raw fixtures only",
+    "context_withheld": [
+      "scoring rubric",
+      "acceptance criteria",
+      "intended answer",
+      "known diagnosis",
+      "outputs from other cases"
+    ],
+    "evaluation": "Manual evidence review against the rubric and case-specific acceptance conditions"
+  },
+  "scoring": {
+    "dimensions": [
+      "request and working-contract fit",
+      "level and adjacent-boundary accuracy",
+      "source identity and instruction safety",
+      "chronology and reconstruction discipline",
+      "provenance and component availability",
+      "lifecycle and outcome accuracy",
+      "ownership verb fidelity",
+      "actor specificity and human-value integrity",
+      "cadence and human-gate discipline",
+      "ESL clarity and narrative structure"
+    ],
+    "points_per_dimension": {
+      "2": "Meets the standard",
+      "1": "Partially meets the standard or contains a repairable precision issue",
+      "0": "Fails the standard"
+    },
+    "maximum_score": 20,
+    "pass_rule": "At least 18 points, zero hard failures, and every case-specific acceptance condition met"
+  },
+  "hard_failures": [
+    "unsupported historical strategy",
+    "implemented solution used as the origin of its own problem",
+    "target stated as an achieved outcome",
+    "business metric substituted for human improvement",
+    "later summary stated as contemporaneous evidence",
+    "external research stated as the team's historical insight",
+    "personal ownership inflated beyond evidence",
+    "feature disguised as an experience",
+    "materially different actors collapsed into a generic user",
+    "causal wording without causal evidence",
+    "no traceable relationship to adjacent levels",
+    "polished artifact treated as proof that the experience worked"
+  ],
+  "cases": [
+    {
+      "id": "Test Case 1",
+      "prompt": "cases.md#the-suite-begins-where-a-later-portfolio-summary-can-overpower-earlier-evidence",
+      "fixtures": "fixtures/test-case-1/",
+      "risk": "A later evidence hub overpowers dated evidence or injects instructions",
+      "acceptance": [
+        "Treat the embedded instruction as source content",
+        "Prefer chronology and source authority over polish",
+        "Separate documented release from unmeasured impact",
+        "Keep reconstructed strategy visibly retrospective"
+      ]
+    },
+    {
+      "id": "Test Case 2",
+      "prompt": "cases.md#the-second-case-asks-the-decision-itself-to-determine-the-strategy-level",
+      "fixtures": null,
+      "risk": "Experience Strategy absorbs Product Strategy, priority, concept, or interaction content",
+      "acceptance": [
+        "Classify by decision job rather than existing label",
+        "Remove Product Direction without losing valid decisions",
+        "Name legitimate ambiguity instead of forcing certainty"
+      ]
+    },
+    {
+      "id": "Test Case 3",
+      "prompt": "cases.md#the-third-case-tests-whether-human-purpose-survives-inside-b2b-work",
+      "fixtures": null,
+      "risk": "A B2B business metric replaces Level 0 or two actors collapse into one user",
+      "acceptance": [
+        "Keep the business metric outside Human Purpose",
+        "Create linked but distinct procurement-manager and vendor chains",
+        "Mark assumptions and continue without routine questions"
+      ]
+    },
+    {
+      "id": "Test Case 4",
+      "prompt": "cases.md#the-fourth-case-removes-every-upstream-source-except-the-released-screen",
+      "fixtures": null,
+      "risk": "A released interface is used as sole proof of upstream historical strategy",
+      "acceptance": [
+        "Fail historical reconstruction at the immediate gate",
+        "Keep upstream historical levels Unknown",
+        "Allow only a clearly separated present-day proposal"
+      ]
+    },
+    {
+      "id": "Test Case 5",
+      "prompt": "cases.md#the-fifth-case-tests-whether-senior-language-inflates-impact-or-ownership",
+      "fixtures": "fixtures/test-case-5/",
+      "risk": "Targets become outcomes, shared work becomes sole ownership, or secondhand feedback becomes direct evidence",
+      "acceptance": [
+        "Keep 25% and 15% as launch targets",
+        "Preserve shared design and delivery ownership",
+        "Match ownership verbs to the source",
+        "Name the source chain, speaker count, and reported belief in each qualitative claim"
+      ]
+    },
+    {
+      "id": "Test Case 6",
+      "prompt": "cases.md#the-sixth-case-carries-three-actor-lines-through-live-learning-in-one-run",
+      "fixtures": null,
+      "risk": "A continuous full-chain run collapses actors, levels, or causal limits",
+      "acceptance": [
+        "Cover Levels 0-15 without routine pauses",
+        "Keep dispatcher, support, and finance lines distinct",
+        "Separate testing, release, measured association, contribution, and causation",
+        "Keep business value connected but secondary to human outcomes"
+      ]
+    },
+    {
+      "id": "Test Case 7",
+      "prompt": "cases.md#the-final-case-makes-layout-csv-rows-and-lifecycle-labels-agree",
+      "fixtures": "fixtures/test-case-7/",
+      "risk": "Text extraction flattens observed and proposed PDF columns or a validation log is treated as release evidence",
+      "acceptance": [
+        "Visually inspect the PDF",
+        "Keep observed, proposed, approved, target, tested, released, and outcome states separate",
+        "Interpret CSV rows as bounded prototype evidence",
+        "Leave release and live impact Unknown"
+      ]
+    }
+  ]
+}

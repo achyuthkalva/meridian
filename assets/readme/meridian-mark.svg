@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Meridian mark</title>
+  <desc id="desc">A luminous vertical meridian crossing an atmospheric sphere and horizon.</desc>
+  <defs>
+    <linearGradient id="bg" x1="32" y1="24" x2="224" y2="232" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102A3B"/>
+      <stop offset="1" stop-color="#07121D"/>
+    </linearGradient>
+    <linearGradient id="line" x1="128" y1="42" x2="128" y2="214" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3C56B"/>
+      <stop offset="0.42" stop-color="#86E5D5"/>
+      <stop offset="1" stop-color="#5C91E8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(128 70) rotate(90) scale(28)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF4CD" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#F3C56B" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="sphere">
+      <circle cx="128" cy="130" r="76"/>
+    </clipPath>
+  </defs>
+  <rect width="256" height="256" rx="58" fill="url(#bg)"/>
+  <circle cx="128" cy="130" r="76" fill="#0B1D2A" stroke="#315166" stroke-width="2"/>
+  <g clip-path="url(#sphere)" fill="none">
+    <ellipse cx="128" cy="130" rx="46" ry="76" stroke="#4F7287" stroke-opacity="0.58"/>
+    <ellipse cx="128" cy="130" rx="20" ry="76" stroke="#4F7287" stroke-opacity="0.4"/>
+    <path d="M43 105C83 129 173 129 213 105" stroke="#4F7287" stroke-opacity="0.5"/>
+    <path d="M43 155C83 131 173 131 213 155" stroke="#4F7287" stroke-opacity="0.5"/>
+    <path d="M42 130H214" stroke="#86E5D5" stroke-opacity="0.72"/>
+  </g>
+  <circle cx="128" cy="70" r="28" fill="url(#glow)"/>
+  <path d="M128 42V214" stroke="url(#line)" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="128" cy="70" r="5.5" fill="#FFF1C4" stroke="#F3C56B" stroke-width="2"/>
+  <circle cx="128" cy="130" r="4" fill="#86E5D5"/>
+  <circle cx="128" cy="214" r="3" fill="#5C91E8"/>
+</svg>

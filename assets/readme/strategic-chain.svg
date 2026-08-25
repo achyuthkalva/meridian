@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">The sixteen-level Meridian strategic chain</title>
+  <desc id="desc">Five connected modules move from human purpose through strategic choices, critical experiences, interaction definition, delivery, and outcome learning.</desc>
+  <defs>
+    <linearGradient id="bg" x1="70" y1="30" x2="1130" y2="770" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102B3D"/><stop offset="0.56" stop-color="#091A27"/><stop offset="1" stop-color="#060F18"/>
+    </linearGradient>
+    <linearGradient id="line" x1="83" y1="150" x2="83" y2="724" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3C56B"/><stop offset="0.34" stop-color="#8BE6D7"/><stop offset="1" stop-color="#6798F0"/>
+    </linearGradient>
+    <style>
+      .sans{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.caps{letter-spacing:2.4px}.label{font-size:13px;font-weight:700}.name{font-size:15px;font-weight:620}.muted{fill:#89A0AF}
+    </style>
+  </defs>
+  <rect width="1200" height="800" rx="28" fill="url(#bg)"/>
+  <g class="sans">
+    <text x="60" y="66" fill="#8BE6D7" font-size="13" font-weight="700" class="caps">THE STRATEGIC CHAIN</text>
+    <text x="60" y="112" fill="#F4F8FA" font-size="32" font-weight="650" letter-spacing="-0.8">Sixteen levels keep purpose connected to live learning.</text>
+    <text x="60" y="141" fill="#8EA3B3" font-size="16">The levels never change. The evidence decides where honest work can begin.</text>
+
+    <path d="M83 180V702" stroke="url(#line)" stroke-width="4" stroke-linecap="round"/>
+    <g fill="#0C1F2C" stroke-width="1.2">
+      <rect x="120" y="166" width="1020" height="100" rx="18" stroke="#7C6846"/>
+      <rect x="120" y="280" width="1020" height="100" rx="18" stroke="#397162"/>
+      <rect x="120" y="394" width="1020" height="100" rx="18" stroke="#2D5F66"/>
+      <rect x="120" y="508" width="1020" height="100" rx="18" stroke="#315777"/>
+      <rect x="120" y="622" width="1020" height="100" rx="18" stroke="#3E5686"/>
+    </g>
+    <g>
+      <circle cx="83" cy="216" r="8" fill="#F3C56B"/><circle cx="83" cy="330" r="7" fill="#8BE6D7"/>
+      <circle cx="83" cy="444" r="7" fill="#69C7C9"/><circle cx="83" cy="558" r="7" fill="#6798F0"/>
+      <circle cx="83" cy="672" r="8" fill="#7D9FF2"/>
+    </g>
+
+    <g class="caps label">
+      <text x="145" y="193" fill="#F3C56B">FOUNDATION</text>
+      <text x="145" y="307" fill="#8BE6D7">DIRECTION AND CHOICES</text>
+      <text x="145" y="421" fill="#69C7C9">EXPERIENCE AND POSSIBILITIES</text>
+      <text x="145" y="535" fill="#79A7F5">SYSTEM AND EXPRESSION</text>
+      <text x="145" y="649" fill="#8EA8F2">EVIDENCE, DELIVERY, AND LEARNING</text>
+    </g>
+
+    <g class="name" fill="#DDE9EF">
+      <text x="145" y="232"><tspan fill="#F3C56B">00</tspan><tspan dx="10">Human Purpose</tspan><tspan x="175" dy="19" class="muted" font-size="12">in Context</tspan></text>
+      <text x="390" y="232"><tspan fill="#F3C56B">01</tspan><tspan dx="10">Current</tspan><tspan x="420" dy="19" class="muted" font-size="12">Experience</tspan></text>
+      <text x="635" y="232"><tspan fill="#F3C56B">02</tspan><tspan dx="10">Problem and</tspan><tspan x="665" dy="19" class="muted" font-size="12">Opportunity Space</tspan></text>
+      <text x="890" y="232"><tspan fill="#F3C56B">03</tspan><tspan dx="10">Strategic UX</tspan><tspan x="920" dy="19" class="muted" font-size="12">Outcome</tspan></text>
+
+      <text x="145" y="346"><tspan fill="#8BE6D7">04</tspan><tspan dx="10">Experience</tspan><tspan x="175" dy="19" class="muted" font-size="12">Vision</tspan></text>
+      <text x="390" y="346"><tspan fill="#8BE6D7">05</tspan><tspan dx="10">Experience</tspan><tspan x="420" dy="19" class="muted" font-size="12">Strategy</tspan></text>
+      <text x="635" y="346"><tspan fill="#8BE6D7">06</tspan><tspan dx="10">Product</tspan><tspan x="665" dy="19" class="muted" font-size="12">Strategy</tspan></text>
+      <text x="890" y="346"><tspan fill="#8BE6D7">07</tspan><tspan dx="10">Experience Roadmap</tspan><tspan x="920" dy="19" class="muted" font-size="12">and Priorities</tspan></text>
+
+      <text x="145" y="460"><tspan fill="#69C7C9">08</tspan><tspan dx="10">Critical</tspan><tspan x="175" dy="19" class="muted" font-size="12">Experience</tspan></text>
+      <text x="470" y="460"><tspan fill="#69C7C9">09</tspan><tspan dx="10">Scenarios</tspan><tspan x="500" dy="19" class="muted" font-size="12">and Journeys</tspan></text>
+      <text x="805" y="460"><tspan fill="#69C7C9">10</tspan><tspan dx="10">Solution</tspan><tspan x="835" dy="19" class="muted" font-size="12">Concepts</tspan></text>
+
+      <text x="145" y="574"><tspan fill="#79A7F5">11</tspan><tspan dx="10">Enabling Capabilities</tspan><tspan x="175" dy="19" class="muted" font-size="12">and Features</tspan></text>
+      <text x="490" y="574"><tspan fill="#79A7F5">12</tspan><tspan dx="10">Interaction</tspan><tspan x="520" dy="19" class="muted" font-size="12">Architecture</tspan></text>
+      <text x="820" y="574"><tspan fill="#79A7F5">13</tspan><tspan dx="10">Interface Definition</tspan><tspan x="850" dy="19" class="muted" font-size="12">and Prototyping</tspan></text>
+
+      <text x="145" y="688"><tspan fill="#8EA8F2">14</tspan><tspan dx="10">Validation and</tspan><tspan x="175" dy="19" class="muted" font-size="12">Implementation Definition</tspan></text>
+      <text x="650" y="688"><tspan fill="#8EA8F2">15</tspan><tspan dx="10">Delivery, Live Experience,</tspan><tspan x="680" dy="19" class="muted" font-size="12">and Outcome Learning</tspan></text>
+    </g>
+
+    <path d="M1117 696C1167 680 1172 620 1172 555V224C1172 180 1158 164 1128 155" fill="none" stroke="#35566B" stroke-width="1.5" stroke-dasharray="5 7"/>
+    <path d="M1128 155L1138 153L1133 163" fill="none" stroke="#F3C56B" stroke-width="1.5"/>
+    <text x="1117" y="746" text-anchor="end" fill="#718897" font-size="12">Live evidence can reopen any upstream decision.</text>
+  </g>
+</svg>

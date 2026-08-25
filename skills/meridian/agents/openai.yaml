@@ -1,0 +1,4 @@
+interface:
+  display_name: "Meridian"
+  short_description: "Connect human purpose to strategy and outcomes"
+  default_prompt: "Use $meridian to build an evidence-grounded strategic experience chain for this work."

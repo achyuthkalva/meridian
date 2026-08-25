@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">Four independent evidence controls</title>
+  <desc id="desc">Every material claim records component availability, evidence provenance, lifecycle or outcome state, and ownership without collapsing them into one confidence score.</desc>
+  <defs>
+    <linearGradient id="bg" x1="50" y1="25" x2="1150" y2="625" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102B3D"/><stop offset="0.6" stop-color="#091A27"/><stop offset="1" stop-color="#060F18"/>
+    </linearGradient>
+    <style>.sans{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.caps{letter-spacing:2.2px}.small{font-size:12px}.item{font-size:13px;font-weight:560}</style>
+  </defs>
+  <rect width="1200" height="650" rx="28" fill="url(#bg)"/>
+  <g class="sans">
+    <text x="60" y="65" fill="#8BE6D7" font-size="13" font-weight="700" class="caps">THE TRUTH CONTROLS</text>
+    <text x="60" y="111" fill="#F4F8FA" font-size="32" font-weight="650" letter-spacing="-0.8">One strong signal must never hide a different gap.</text>
+    <text x="60" y="140" fill="#8EA3B3" font-size="16">A claim can be released yet unmeasured, well documented yet not personally owned, or plausible yet still unknown.</text>
+
+    <g transform="translate(60 178)">
+      <g>
+        <rect width="255" height="305" rx="18" fill="#0C2130" stroke="#50613F"/>
+        <circle cx="28" cy="30" r="7" fill="#F3C56B"/><text x="48" y="35" fill="#F3C56B" font-size="13" font-weight="700" class="caps">AVAILABILITY</text>
+        <text x="24" y="68" fill="#DDE9EF" font-size="15" font-weight="620"><tspan x="24">Does this component</tspan><tspan x="24" dy="19">exist?</tspan></text>
+        <g class="item" fill="#AFC1CC">
+          <text x="24" y="124">Evidenced</text><text x="24" y="155">Partially evidenced</text><text x="24" y="186">Reconstructed</text><text x="24" y="217">Unknown</text><text x="24" y="248">Not applicable</text>
+        </g>
+        <path d="M24 263H231" stroke="#294657"/><text x="24" y="286" fill="#718897" class="small">Applied per level, not per project.</text>
+      </g>
+      <g transform="translate(275)">
+        <rect width="255" height="305" rx="18" fill="#0C2130" stroke="#346A63"/>
+        <circle cx="28" cy="30" r="7" fill="#8BE6D7"/><text x="48" y="35" fill="#8BE6D7" font-size="13" font-weight="700" class="caps">PROVENANCE</text>
+        <text x="24" y="68" fill="#DDE9EF" font-size="15" font-weight="620"><tspan x="24">Where did this claim</tspan><tspan x="24" dy="19">come from?</tspan></text>
+        <g class="item" fill="#AFC1CC">
+          <text x="24" y="124"><tspan fill="#8BE6D7">D</tspan><tspan dx="12">Documented fact</tspan></text>
+          <text x="24" y="155"><tspan fill="#8BE6D7">R</tspan><tspan dx="12">Corroborated reconstruction</tspan></text>
+          <text x="24" y="186"><tspan fill="#8BE6D7">C</tspan><tspan dx="12">Context only</tspan></text>
+          <text x="24" y="217"><tspan fill="#8BE6D7">I</tspan><tspan dx="12">Working inference</tspan></text>
+          <text x="24" y="248"><tspan fill="#8BE6D7">U</tspan><tspan dx="12">Unsupported</tspan></text>
+        </g>
+        <path d="M24 263H231" stroke="#294657"/><text x="24" y="286" fill="#718897" class="small">Context never proves team history.</text>
+      </g>
+      <g transform="translate(550)">
+        <rect width="255" height="305" rx="18" fill="#0C2130" stroke="#335D7D"/>
+        <circle cx="28" cy="30" r="7" fill="#6798F0"/><text x="48" y="35" fill="#79A7F5" font-size="13" font-weight="700" class="caps">LIFECYCLE</text>
+        <text x="24" y="68" fill="#DDE9EF" font-size="15" font-weight="620"><tspan x="24">How far did this work</tspan><tspan x="24" dy="19">progress?</tspan></text>
+        <g class="item" fill="#AFC1CC">
+          <text x="24" y="124">Hypothesized → designed</text><text x="24" y="155">Tested within scope</text><text x="24" y="186">Approved → implemented</text><text x="24" y="217">Released → observed</text><text x="24" y="248">Measured → causally attributed</text>
+        </g>
+        <path d="M24 263H231" stroke="#294657"/><text x="24" y="286" fill="#718897" class="small">Released never means successful.</text>
+      </g>
+      <g transform="translate(825)">
+        <rect width="255" height="305" rx="18" fill="#0C2130" stroke="#655A75"/>
+        <circle cx="28" cy="30" r="7" fill="#A992D8"/><text x="48" y="35" fill="#B6A1E3" font-size="13" font-weight="700" class="caps">OWNERSHIP</text>
+        <text x="24" y="68" fill="#DDE9EF" font-size="15" font-weight="620"><tspan x="24">Who contributed—</tspan><tspan x="24" dy="19">and how?</tspan></text>
+        <g class="item" fill="#AFC1CC">
+          <text x="24" y="124">Led or decided</text><text x="24" y="155">Directed or delegated</text><text x="24" y="186">Co-led or influenced</text><text x="24" y="217">Designed, reviewed, or supported</text><text x="24" y="248">Team or organization result</text>
+        </g>
+        <path d="M24 263H231" stroke="#294657"/><text x="24" y="286" fill="#718897" class="small">The verb must match the evidence.</text>
+      </g>
+    </g>
+
+    <g transform="translate(60 516)">
+      <rect width="1080" height="82" rx="18" fill="#0D2635" stroke="#2E5367"/>
+      <text x="24" y="31" fill="#8BE6D7" font-size="12" font-weight="700" class="caps">ONE MATERIAL CLAIM</text>
+      <text x="24" y="57" fill="#C8D7DF" font-size="15">Availability</text><text x="125" y="57" fill="#8EA3B3">+</text>
+      <text x="151" y="57" fill="#C8D7DF" font-size="15">Provenance</text><text x="245" y="57" fill="#8EA3B3">+</text>
+      <text x="270" y="57" fill="#C8D7DF" font-size="15">Lifecycle</text><text x="346" y="57" fill="#8EA3B3">+</text>
+      <text x="371" y="57" fill="#C8D7DF" font-size="15">Ownership</text>
+      <path d="M484 41H635" stroke="#3D6073" stroke-width="1.5"/><path d="M628 35L636 41L628 47" fill="none" stroke="#8BE6D7" stroke-width="1.5"/>
+      <text x="663" y="38" fill="#F4F8FA" font-size="16" font-weight="620">Claim-safe wording</text>
+      <text x="663" y="60" fill="#8197A5" font-size="12">Precise enough to survive public review.</text>
+    </g>
+  </g>
+</svg>

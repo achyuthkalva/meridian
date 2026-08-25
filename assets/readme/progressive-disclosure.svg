@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="670" viewBox="0 0 1200 670" role="img" aria-labelledby="title desc">
+  <title id="title">Progressive disclosure architecture</title>
+  <desc id="desc">Meridian keeps core behavior compact and loads shared references, selected level cards, and research sources only when the current decision needs them.</desc>
+  <defs>
+    <linearGradient id="bg" x1="55" y1="30" x2="1140" y2="640" gradientUnits="userSpaceOnUse"><stop stop-color="#102B3D"/><stop offset="0.6" stop-color="#091A27"/><stop offset="1" stop-color="#060F18"/></linearGradient>
+    <linearGradient id="rail" x1="95" y1="188" x2="95" y2="590" gradientUnits="userSpaceOnUse"><stop stop-color="#F3C56B"/><stop offset="0.42" stop-color="#8BE6D7"/><stop offset="1" stop-color="#6798F0"/></linearGradient>
+    <style>.sans{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.caps{letter-spacing:2.2px}.body{font-size:13px;fill:#8EA3B3}.tag{font-size:12px;font-weight:700;letter-spacing:1.5px}</style>
+  </defs>
+  <rect width="1200" height="670" rx="28" fill="url(#bg)"/>
+  <g class="sans">
+    <text x="60" y="65" fill="#8BE6D7" font-size="13" font-weight="700" class="caps">PROGRESSIVE DISCLOSURE</text>
+    <text x="60" y="111" fill="#F4F8FA" font-size="32" font-weight="650" letter-spacing="-0.8">The skill stays light until the decision needs depth.</text>
+    <text x="60" y="140" fill="#8EA3B3" font-size="16">Core rules remain present. Detailed level logic and research arrive only at the right moment.</text>
+
+    <path d="M95 188V590" stroke="url(#rail)" stroke-width="3" stroke-linecap="round"/>
+    <g>
+      <circle cx="95" cy="228" r="7" fill="#F3C56B"/><circle cx="95" cy="338" r="7" fill="#8BE6D7"/><circle cx="95" cy="448" r="7" fill="#69C7C9"/><circle cx="95" cy="558" r="7" fill="#6798F0"/>
+    </g>
+
+    <g>
+      <rect x="135" y="182" width="970" height="92" rx="18" fill="#102734" stroke="#6C6242"/>
+      <text x="165" y="213" fill="#F3C56B" class="tag">ALWAYS PRESENT</text>
+      <text x="165" y="243" fill="#F1F6F8" font-size="20" font-weight="650">Core instructions</text>
+      <text x="390" y="220" class="body">Working contract · evidence discipline · locked chain</text>
+      <text x="390" y="242" class="body">human gates · communication rules</text>
+      <rect x="965" y="209" width="110" height="32" rx="16" fill="#2D2A21" stroke="#6C6242"/><text x="1020" y="230" text-anchor="middle" fill="#F3C56B" font-size="11" font-weight="700">SKILL.md</text>
+
+      <rect x="175" y="292" width="890" height="92" rx="18" fill="#0F2933" stroke="#376B60"/>
+      <text x="205" y="323" fill="#8BE6D7" class="tag">WHEN THE TASK CALLS FOR IT</text>
+      <text x="205" y="353" fill="#F1F6F8" font-size="20" font-weight="650">Shared operating references</text>
+      <text x="560" y="330" class="body">Interaction model · evidence controls · component standard</text>
+      <text x="560" y="354" class="body">communication system · operating practice</text>
+
+      <rect x="215" y="402" width="810" height="92" rx="18" fill="#0E2733" stroke="#2E6268"/>
+      <text x="245" y="433" fill="#69C7C9" class="tag">ONLY AT THE NEEDED RESOLUTION</text>
+      <text x="245" y="463" fill="#F1F6F8" font-size="20" font-weight="650">Selected level cards</text>
+      <text x="495" y="447" class="body">One level, an adjacent boundary, or one module</text>
+      <text x="495" y="468" class="body">The full 0–15 chain is never loaded without a reason.</text>
+      <g fill="#153643" stroke="#33717A"><rect x="860" y="429" width="42" height="34" rx="10"/><rect x="910" y="429" width="42" height="34" rx="10"/><rect x="960" y="429" width="42" height="34" rx="10"/></g>
+      <g fill="#9BDDD8" text-anchor="middle" font-size="11" font-weight="700"><text x="881" y="451">L05</text><text x="931" y="451">L06</text><text x="981" y="451">L07</text></g>
+
+      <rect x="255" y="512" width="730" height="92" rx="18" fill="#0D2331" stroke="#365A7A"/>
+      <text x="285" y="543" fill="#79A7F5" class="tag">ONLY WHEN PROVENANCE OR CONTEXT NEEDS IT</text>
+      <text x="285" y="573" fill="#F1F6F8" font-size="20" font-weight="650">Research lineage and examples</text>
+      <text x="690" y="557" class="body">Expert foundations · source index</text>
+      <text x="690" y="578" class="body">worked example · convergence rationale</text>
+    </g>
+
+    <g transform="translate(1080 300)">
+      <path d="M0 0V234" stroke="#375568" stroke-width="1.4"/><path d="M-5 225L0 234L5 225" fill="none" stroke="#6798F0" stroke-width="1.4"/>
+      <text x="26" y="8" fill="#9AAEBA" font-size="11" class="caps">DETAIL</text>
+      <text x="26" y="231" fill="#9AAEBA" font-size="11" class="caps">FOCUS</text>
+    </g>
+    <text x="60" y="635" fill="#718897" font-size="12">Result: enough context for careful reasoning, without repeating the whole playbook in every response.</text>
+  </g>
+</svg>

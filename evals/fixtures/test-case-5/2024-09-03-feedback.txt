@@ -1,0 +1,4 @@
+Date: 3 September 2024
+Source: Product manager's notes from an operations check-in
+
+The product manager wrote: "Operations said the new queue feels much clearer, and they think they are making fewer follow-up calls. One supervisor said new staff understood the status labels without extra explanation. We have not pulled call-volume or handling-time data yet."

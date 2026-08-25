@@ -1,0 +1,6 @@
+date,session,actor,task,result,note
+2024-09-04,1,support agent,transfer an escalation,completed,"Needed moderator help to find the earlier security check"
+2024-09-04,2,support agent,transfer an escalation,completed,"Found the owner and next action without help"
+2024-09-05,3,support agent,answer a customer update,completed,"Read the case history but asked whether the billing note was current"
+2024-09-05,4,support agent,answer a customer update,completed,"Answered without help in the prototype"
+2024-09-06,5,supervisor,reassign an escalation,failed,"Previous ownership disappeared after reassignment"

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">Meridian</title>
+  <desc id="desc">An evidence-grounded strategy system connecting human purpose to live experience and outcome learning.</desc>
+  <defs>
+    <linearGradient id="bg" x1="80" y1="38" x2="1120" y2="590" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102B3D"/>
+      <stop offset="0.58" stop-color="#091A27"/>
+      <stop offset="1" stop-color="#060F18"/>
+    </linearGradient>
+    <linearGradient id="meridian" x1="930" y1="88" x2="930" y2="534" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3C56B"/>
+      <stop offset="0.38" stop-color="#8BE6D7"/>
+      <stop offset="1" stop-color="#6798F0"/>
+    </linearGradient>
+    <radialGradient id="north" cx="0" cy="0" r="1" gradientTransform="translate(930 130) rotate(90) scale(72)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF2C5" stop-opacity="0.44"/>
+      <stop offset="1" stop-color="#FFF2C5" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="globe">
+      <circle cx="930" cy="312" r="208"/>
+    </clipPath>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+    <style>
+      .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .caps { letter-spacing: 3px; }
+    </style>
+  </defs>
+  <rect width="1200" height="620" rx="28" fill="url(#bg)"/>
+  <path d="M0 505C220 450 365 474 548 524C710 568 921 565 1200 474V620H0Z" fill="#0C2232" fill-opacity="0.72"/>
+  <path d="M0 508C220 453 365 477 548 527C710 571 921 568 1200 477" fill="none" stroke="#25465A" stroke-width="1.5"/>
+
+  <g fill="#8CA6B7" opacity="0.42">
+    <circle cx="76" cy="92" r="1.5"/><circle cx="162" cy="66" r="1"/><circle cx="250" cy="112" r="1.2"/>
+    <circle cx="402" cy="72" r="1.4"/><circle cx="546" cy="105" r="1"/><circle cx="698" cy="62" r="1.3"/>
+    <circle cx="1086" cy="82" r="1.2"/><circle cx="1140" cy="164" r="1.5"/><circle cx="712" cy="212" r="1"/>
+  </g>
+
+  <g class="sans">
+    <text x="74" y="92" fill="#8BE6D7" font-size="14" font-weight="700" class="caps">AGENT SKILL / EVIDENCE CONTROLLED</text>
+    <text x="70" y="205" fill="#F6FAFC" font-size="88" font-weight="640" letter-spacing="-3">Meridian</text>
+    <text x="74" y="258" fill="#B9CBD6" font-size="27" font-weight="440">Find the truthful line from human purpose</text>
+    <text x="74" y="297" fill="#B9CBD6" font-size="27" font-weight="440">to live experience and outcome learning.</text>
+    <text x="74" y="358" fill="#7891A2" font-size="17">Construct new strategy. Reconstruct historical work.</text>
+    <text x="74" y="385" fill="#7891A2" font-size="17">Audit every claim without turning hindsight into history.</text>
+
+    <g transform="translate(74 442)">
+      <rect width="112" height="40" rx="20" fill="#112F40" stroke="#2D5569"/>
+      <text x="56" y="26" text-anchor="middle" fill="#DDE9EF" font-size="13" font-weight="650">16 levels</text>
+      <rect x="124" width="108" height="40" rx="20" fill="#112F40" stroke="#2D5569"/>
+      <text x="178" y="26" text-anchor="middle" fill="#DDE9EF" font-size="13" font-weight="650">11 modes</text>
+      <rect x="244" width="108" height="40" rx="20" fill="#112F40" stroke="#2D5569"/>
+      <text x="298" y="26" text-anchor="middle" fill="#DDE9EF" font-size="13" font-weight="650">7 evals</text>
+      <rect x="364" width="174" height="40" rx="20" fill="#14382F" stroke="#377866"/>
+      <circle cx="384" cy="20" r="4" fill="#8BE6D7"/>
+      <text x="456" y="26" text-anchor="middle" fill="#DDF7F0" font-size="13" font-weight="650">human gates intact</text>
+    </g>
+  </g>
+
+  <circle cx="930" cy="312" r="208" fill="#091D2B" stroke="#2D5268" stroke-width="1.5"/>
+  <g clip-path="url(#globe)" fill="none">
+    <ellipse cx="930" cy="312" rx="142" ry="208" stroke="#345A70" stroke-opacity="0.7"/>
+    <ellipse cx="930" cy="312" rx="72" ry="208" stroke="#345A70" stroke-opacity="0.5"/>
+    <ellipse cx="930" cy="312" rx="18" ry="208" stroke="#345A70" stroke-opacity="0.34"/>
+    <path d="M701 237C805 294 1055 294 1159 237" stroke="#345A70" stroke-opacity="0.56"/>
+    <path d="M701 386C805 330 1055 330 1159 386" stroke="#345A70" stroke-opacity="0.56"/>
+    <path d="M708 312H1152" stroke="#8BE6D7" stroke-opacity="0.54" stroke-width="1.5"/>
+  </g>
+  <circle cx="930" cy="130" r="72" fill="url(#north)" filter="url(#soft)"/>
+  <path d="M930 88V534" stroke="url(#meridian)" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="930" cy="130" r="7" fill="#FFF0BF" stroke="#F3C56B" stroke-width="2"/>
+  <circle cx="930" cy="312" r="5" fill="#8BE6D7"/>
+  <circle cx="930" cy="506" r="4" fill="#6798F0"/>
+
+  <g class="sans">
+    <text x="956" y="126" fill="#F3C56B" font-size="12" font-weight="700" class="caps">HUMAN PURPOSE</text>
+    <text x="956" y="307" fill="#8BE6D7" font-size="12" font-weight="700" class="caps">DECISIONS</text>
+    <text x="956" y="502" fill="#76A2F2" font-size="12" font-weight="700" class="caps">LIVE LEARNING</text>
+  </g>
+</svg>
